@@ -18,3 +18,15 @@ Route::get('/demo2', function () {
 Route::get('/demo3', function () {
     return Inertia::render('demo3');
 })->name('demo3');
+
+Route::get('/demo4', function () {
+    return Inertia::render('demo4');
+})->name('demo4');
+
+Route::get('/8bit', function () {
+    return Inertia::render('8bit');
+})->name('8bit');
+
+Route::get('/starlabs', function () {
+    return Inertia::render('starlabs');
+})->name('starlabs');

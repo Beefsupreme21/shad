@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
@@ -128,4 +129,15 @@
   body {
     @apply bg-background text-foreground;
     }
+}
+
+.retro {
+  font-family: "Press Start 2P", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
